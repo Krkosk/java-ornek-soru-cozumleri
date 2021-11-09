@@ -7,8 +7,7 @@ public class Main {
 			int a=10, b=2;
 			System.out.println("birinci sayinin degeri: "+a);
 			System.out.println("ikinci sayinin degeri: "+b);
-			System.out.println("bölme işlemi sonucu: "+(a/b));
-
+			System.out.println("bölme işlemi sonucu= "+(a/b));
 
 
 
