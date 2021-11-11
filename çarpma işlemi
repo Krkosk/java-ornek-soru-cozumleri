@@ -1,0 +1,16 @@
+package github;
+import java.util.*;   //bu satırı girdi almak için gerekli olan kütüphaneyi çağırmak için kullanıyoruz
+public class exercis3 {
+
+	public static void main(String[] args) {
+	System.out.println("lütfen 1. degeri giriniz: ");
+	Scanner girdi=new Scanner(System.in);   //Scanner sınıfını kullanmak için çağırıyoruz
+	int sayi1=girdi.nextInt();    //Klavyeden girilen değeri yeni dağişkenine atıyoruz
+		
+		System.out.println("lütfen 2. degeri giriniz: ");
+		int sayi2=girdi.nextInt();
+		
+			System.out.println("girdiginiz iki degerin çarpımı: "+(sayi1*sayi2));
+	}
+
+}
