@@ -1,0 +1,14 @@
+package github;
+import java.util.*;
+public class Exercise5 {
+
+	public static void main(String[] args) {
+		System.out.println("çarpım tablosu");
+		Scanner girdi=new Scanner(System.in);
+		int sayi1= girdi.nextInt();
+			for(int i=0;i<=10;i++) {
+			System.out.println(sayi1+"x"+i+"="+(sayi1*i));
+			}
+	}
+
+}
