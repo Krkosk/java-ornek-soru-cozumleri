@@ -1,0 +1,29 @@
+package github;
+import java.util.*;
+public class exercise4 {
+	
+	public static void main(String[] args) {
+		int sayi1, sayi2, sayi3;
+		System.out.println("lutfen 1. sayiyi giriniz");
+		Scanner girdi=new Scanner(System.in);
+			 sayi1=girdi.nextInt();
+			 System.out.println("lutfen 2. sayiyi giriniz");
+			 sayi2=girdi.nextInt();
+			 	
+			 	System.out.println("lutfen 3. sayiyi giriniz");
+			 	sayi3=girdi.nextInt();
+			 
+			 	if(sayi3<sayi1&&sayi2<sayi1)
+					System.out.println("sayi1 en büyüktür: " +sayi1);
+				if(sayi1<sayi2&&sayi3<sayi2)
+					System.out.println("sayi2 en büyüktür: " +sayi2);
+				if(sayi1<sayi3&&sayi2<sayi3)
+					System.out.println("sayi3 en büyüktür: " +sayi3);
+				else
+					System.out.println("sayilar biribirine eşittir");
+		
+		
+		
+	}
+
+}
