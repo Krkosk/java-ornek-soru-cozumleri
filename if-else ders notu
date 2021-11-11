@@ -7,7 +7,7 @@ public class exercise6 {
 			Scanner s=new Scanner(System.in);
 			int not=s.nextInt();
 			
-				if(90<=not) {
+				if(90<=not&&not<=100) {
 					System.out.println("Tebrikler dersten geçtiniz notunuz: AA");
 				}
 				else if(80<=not&&not<90) {
