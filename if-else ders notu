@@ -1,0 +1,25 @@
+package github;
+	import java.util.*;
+public class exercise6 {
+
+	public static void main(String[] args) {
+		System.out.println("Lutfen notunuzu giriniz");
+			Scanner s=new Scanner(System.in);
+			int not=s.nextInt();
+			
+				if(90<=not) {
+					System.out.println("Tebrikler dersten geçtiniz notunuz: AA");
+				}
+				else if(80<=not&&not<90) {
+					System.out.println("Tebrikler dersten geçtiniz notunuz: BB");
+				}
+				else if(70<=not&&not<80) {
+					System.out.println("Tebrikler dersten geçtiniz notunuz: CC");
+				}
+				else {
+					System.out.println("Dersten kaldınız");
+				}
+
+	}
+
+}
